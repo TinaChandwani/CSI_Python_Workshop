@@ -10,7 +10,11 @@ def sayHello(name='Sam'):
 def getSum(num1, num2):
     total = num1 + num2
     return total
-
+def factorial(n):
+    a = 1
+    for i in range(1,n):
+        a = a*1
+    return a
 
 # A lambda function is a small anonymous function.
 # A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
